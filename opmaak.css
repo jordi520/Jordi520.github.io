@@ -1,58 +1,36 @@
-body {
-    background-color: rgba(5, 248, 37, 0.5);
-  } /* Achtergrond kleur */
 
-  
-  h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-  } /* Waar de tietels van de pagina's staan hier dus in het midden */
-  
-  p {
-    font-family: courier;
-    font-size: medium;
-  } /* Waar de tekst/paragraven staan aan de zijkanten en de groote. */
-  ul
-  a:link, a:visited {
-    background-color:white;
-    color: black;
-    padding: 14px 16px;
-    width: 200px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    
-  } /* Dit is hoe het menu er uit ziet */
-  
-  a:hover, a:active {
-    background-color:rgb(2, 1, 1);
-  }
-
-  ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: rgb(0, 0, 7);
-  } /* De achtergrond van het menu */
-  
-  li {
-    float: left;
-  } /* Aan welke kant het begint in dit geval links */
+    width: 200px;
+    background-color: #e68938; /* Kleur van de blokjes van de inhoudopgave*/
+  }
   
   li a {
     display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
+    color: #000; /*kleur van de tekst bij de inhudsopgave*/
+    padding: 8px 16px; /*breete en hoogte van de inhoudsopgave*/
     text-decoration: none;
-  } /* Dit zorgt er voor dat de tekst in het midden staat */
+  }
+  
+  /* Tekst in het midden van een blokje bij de inhoudsopgave*/
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
   
   li a:hover:not(.active) {
-    background-color: rgba(5, 248, 37, 0.5);
-  } /* Achtergrond kleur */
-  
-  .active {
-    background-color: rgb(5, 248, 37, 0.5);
-  }  /* Achtergrond kleur */
-  
+    background-color: #555; /* Tekst van het vakje bij de inhoudopgave als je evoverheen gaat*/
+    color: white; /* kleur van de tekst bij de inhoudsopgave als je eroverheen gaat*/
+  }
+
+  body {
+      background-color: khaki; /* backgroundcolour van body (binairstelsel+ kleurmodellen+ bitmap)*/
+
+  }
+
+  #body1 {
+
+    background-color: paleturquoise; /* backgroundcolour van #body1 (onze homepage)*/
+  }  
