@@ -1,0 +1,32 @@
+<h1>Uitleg Kleurmodellen</h1> <!--hoofdkopje van tekstgedeelte-->
+
+    
+    <article> <!--begin artikel-->
+     <h2>RGB-kleurmodellen</h2> <!--tusseenkopje-->
+  <p>Het RGB-kleursysteem is een kleurcodering, een manier om een kleur uit te drukken met behulp van een combinatie van de drie primaire kleuren Rood-Groen-Blauw, uitgaande van additieve kleurmenging.
+   De hoeveelheid van elke primaire kleur die benodigd is om de mengkleur te verkrijgen, wordt uitgedrukt in een getal dat meestal uit 8 bits bestaat en kan variëren tussen 0 en 255. 
+  </p> <!--tekst bij tussenkopje RGB-kleurmodellen-->
+    
+  <h2>het Cmy-kleurmodel</h2> 
+  <p>Het Cmy-kleursysteem is een kleursysteem wat zorgt voor de kleurcodering tussen de kleuren cyan, magenta en yellow (in het nederlands lichtblauw, magenta en geel).
+   Dit is een systeem om met 3 basiskleur doormiddel van kleurmenging een groot aantal andere kleur te krijgen. Een paar voorbeelden van deze kleuren zijn: rood, groen en donkerblauw.
+  </p>
+  
+  <h2>Verschillende kleuren in het RGB-kleurmodel</h2> <!--tussenkopje-->
+  <p>Als je bijvoorbeeld de achtergrondkleur Honeydew wilt instellen. Moet je deze kleurencombinatie gebruiken: (240,255,240). 
+    Dit komt neer op 240 keer rood 255 keer groen en 240 keer blauw. 
+    Ook als je bijvoorbeeld onze achtergrondkleur van de homepagina wilt gebruiken "paleturquoise " dan gebruik je de kleurencombinatie (175,238,238) in dit geval is dat 175 keer de kleur rood, 238 keer de keur groen en ook 238 keer de kleur blauw.
+    Zo kun je dus verschillende achtergrond k;euren maken doormiddel van het RGB-kleurmodel.
+  </p> <!--tekst bij het tussenkopje verschillende kleuren in het RGB-kleurenmodel-->
+
+    </article> <!--einde artikel-->
+
+
+    <a href="https://www.youtube.com/watch?v=YtH9eXWuf3Y"> <!--link naar filpmje over RGB-kleurmodel en CMYK-model-->
+      <img src="FilmpjeKleuren.PNG"> <!--plaatje van filmpje over RGB en CMYK-->
+    </a>
+
+  
+  <img src="kleurmodellenplaatje.png"> <!--plaatje over kleurmodellen-->
+  </body>
+</html>
