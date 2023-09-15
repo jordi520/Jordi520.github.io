@@ -1,113 +1,36 @@
 
-ul { /* dit is de opmaak van de navigatiebar */
+ul {
     list-style-type: none;
-    margin: 0; /* margin zorgt voor een aantal pixels om de tekst/afbeelding (buiten het element) */
-    padding: 0; /* padding zorgt voor een aantal pixels om de tekst/afbeelding (binnen het element) */
-    overflow: hidden;
-    background-color: black;
-  
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #e68938; /* Kleur van de blokjes van de inhoudopgave*/
   }
   
-  li { /* de tekst in de navigatiebar komt hiermee links te staan */
-    float: left; /* float zorgt ervoor dat de tekst of afbeelding naar de gewenste kant wordt uitgelijnd */
-  }
-  
-  li a { /* dit is hoe de tekst in de navigatiebar eruitziet */
-    display: block; 
-    color: white; /* kleur tekst */
-    text-align: center; /* tekst in het midden van de knop */
-    padding: 14px 16px;
+  li a {
+    display: block;
+    color: #000; /*kleur van de tekst bij de inhudsopgave*/
+    padding: 8px 16px; /*breete en hoogte van de inhoudsopgave*/
     text-decoration: none;
   }
   
-  .active { /* als je de link in de navigatiebar aanklikt, krijgt deze deze opmaak */
-    background-color: peachpuff; /* achtergrondkleur */
-    color: black; /* tekstkleur */
-  }
-
-  /* dit is de kleur die de link krijgt als je erover hovert */
-  li a:hover:not(.active) {
-    background-color: peachpuff;
-    color: black;
-  }
-
-  
-  h1 { /* dit is de opmaak van de titel */
+  /* Tekst in het midden van een blokje bij de inhoudsopgave*/
+  li {
     text-align: center;
-    background-color: peachpuff;
-    padding: 11px;
-  
+    border-bottom: 1px solid #555;
   }
   
-  body { /* dit is de achtergrond van de pagina */
-    background-color: cornsilk;
-    float: center;
+  li a:hover:not(.active) {
+    background-color: #555; /* Tekst van het vakje bij de inhoudopgave als je evoverheen gaat*/
+    color: white; /* kleur van de tekst bij de inhoudsopgave als je eroverheen gaat*/
   }
 
-  .img1 {  /* dit is de opmaak van de afbeelding */
-    float: left;
-    padding-right: 5px
-  }
-
-  .img2 { /* dit is de opmaak van de afbeelding */
-    float: none;
-    height: 100px;
-  }
-
-  .img3 { /* dit is de opmaak van de afbeelding */
-    float: left;
-    width: 450px; 
-    height: 435px;
-    left: 5%; /* dit is hoeveel % de afbeelding van de linkerkant van de pagina af staat */
-    position: relative; /* de afbeelding wordt hier makkelijker mee verplaatst */
-  }
-
-  .img4 { 
-    float: right;
-    right: 10%; /* dit is hoeveel % de afbeelding van de rechterkant van de pagina af staat */
-    position: relative;
-    width: 600px; 
-    height: 225px;
-}
-
-.img5 { 
-  float: left;
-  left: 4%; 
-  position: relative;
-  width: 500px; 
-  height: 400px;
-}
-
-  .footer { /* dit is de opmaak van de footer */
-    position: fixed; /* dit zorgt ervoor dat de footer altijd te zien is */
-    background-color: peachpuff;
-    width: 100%; /* dit is de breedte van de footer (width ook worden gebruikt bij afbeeldingen) */
-    text-align: center; /* hiermee komt de tekst in de footer in het midden */
-    bottom: 0;
-    left: 0;
-  }
-
-  .column { /* dit is de opmaak van de tekst en een afbeelding */
-    float: right;
-    width: 55%;
-    padding: 15px; 
+  body {
+      background-color: khaki; /* backgroundcolour van body (binairstelsel+ kleurmodellen+ bitmap)*/
 
   }
 
-  .column2 {
-    float: left;
-    width: 40%;
-    padding: 15px
+  #body1 {
+
+    background-color: paleturquoise; /* backgroundcolour van #body1 (onze homepage)*/
   }
-
-  
-    .dropdownmenu {
-      display: none;
-    }
-  
-
-  .dropdownbutton> li:hover
- {
-  display:block
-  background-color:peachpuff
-   }
