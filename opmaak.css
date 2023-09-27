@@ -34,3 +34,12 @@ ul {
 
     background-color: paleturquoise; /* backgroundcolour van #body1 (onze homepage)*/
   }
+ <li class="dropdown">
+          <a href="3-lagenmodel.html" class="dropbtn">3-lagenmodel</a>
+          <div class="dropdown-content">
+              <a href="#">Toepassingslaag</a>
+              <a href="#">Transportlaag</a>
+              <a href="#">Netwerklaag</a>
+          </div>
+      </li>
+    </ul>
